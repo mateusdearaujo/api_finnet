@@ -79,8 +79,8 @@ A API aceita data no formato do Brasil mas converte para o padrão internacional
 Para criar um novo usuário, basta enviar um JSON no formato abaixo para a rota /user com o método POST
 ```json
 {
-  'nome' : 'Fulano Silva',
-  'data_nascimento' : '10/06/1992'
+  "nome" : "Fulano Silva",
+  "data_nascimento" : "10/06/1992"
 }
 ```
 
@@ -97,8 +97,8 @@ O JSON com as novas informações deverá ser nesse formato:
  
 ```json
 {
-  'nome' : 'Fulano Silva',
-  'data_nascimento' : '10/06/1992'
+  "nome" : "Fulano Silva",
+  "data_nascimento" : "10/06/1992"
 }
 ```
 ### Pegar os dados de um Usuário
@@ -135,5 +135,3 @@ Com esse sistema integrado é possível;
 - Além disso, na página principal todos os usuários cadastrados pela API são exibidos dentro de uma tabela
 
 ![](public/imagens/api.png)
-
-<img src="public/imagens/api.png" alt="drawing" width="400" height="auto"/>
