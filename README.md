@@ -129,7 +129,7 @@ Para visualizar como a API funciona, foi desenvolvido um CRUD integrado com a AP
 
 Com esse sistema integrado é possível;
 
-- Adicionar suários
+- Adicionar usuários
 - Editar as informações dos usuários
 - Excluir os usuários
 - Além disso, na página principal todos os usuários cadastrados pela API são exibidos dentro de uma tabela
