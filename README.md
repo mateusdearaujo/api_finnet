@@ -23,7 +23,7 @@ Clonar repositório:
 ```
 git clone https://github.com/mateusdearaujo/api_finnet.git
 ```
-Para instalar os pacotes necessários:
+Para instalar os pacotes, é necessário ir até a pasta do projeto e rodar o comando abaixo:
 ````
 composer install
 ````
@@ -44,8 +44,8 @@ php artisan serve
 Ao enviar ou solicitar uma requisição, a API irá retornar um JSON com o formato abaixo:
 ```json
 {
-"error": "",
-"result": []
+    "error": "",
+    "result": []
 }
 
 Caso ocorra algum erro, o JSON irá retornar com a chave "error" preenchida, exemplo:
